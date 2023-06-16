@@ -4,12 +4,12 @@ We provide two mechanisms to serialize and deserialize objects, binary and xml. 
 
 ## files
 include/
-    - helper.h: the type traits classes and tuple helper classes and functions
-    - binary.h: the interfaces about binary serialization and deserialization
-    - xml.h: a wrapper module of tinyxml2 to support XML serialization
-    - tinyxml2.h: a C++ XML parser (see https://github.com/leethomason/tinyxml2)
+- helper.h: the type traits classes and tuple helper classes and functions
+- binary.h: the interfaces about binary serialization and deserialization
+- xml.h: a wrapper module of tinyxml2 to support XML serialization
+- tinyxml2.h: a C++ XML parser (see https://github.com/leethomason/tinyxml2)
 
 src/
-    - tinyxml2.cpp: the implementation of tinyxml2.h
-    - test_binary.cpp: the test file of binary serialization and deserialization
-    - test_xml.cpp: the test file of xml serialization and deserialization
+- tinyxml2.cpp: the implementation of tinyxml2.h
+- test_binary.cpp: the test file of binary serialization and deserialization
+- test_xml.cpp: the test file of xml serialization and deserialization
